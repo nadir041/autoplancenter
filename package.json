@@ -1,7 +1,7 @@
 {
-  "name": "auto-benefit-center",
+  "name": "auto-plan-center",
   "version": "1.0.0",
-  "description": "Auto Benefit Center - Smarter Auto Insurance Coverage",
+  "description": "Autoplancenter - Smarter Auto Insurance Coverage",
   "type": "module",
   "scripts": {
     "dev": "vite",
