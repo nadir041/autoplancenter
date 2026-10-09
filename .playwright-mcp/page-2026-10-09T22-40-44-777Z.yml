@@ -1,0 +1,207 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Auto Benefit Center" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Coverage" [ref=e8] [cursor=pointer]:
+          - /url: "#coverage"
+        - link "Why Us" [ref=e9] [cursor=pointer]:
+          - /url: "#why-us"
+        - link "How It Works" [ref=e10] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "FAQ" [ref=e11] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Get My Quote" [ref=e12] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - img "Blue BMW driving on a scenic road" [ref=e16]
+      - generic [ref=e243]:
+        - generic [ref=e244]: 🛡️ Trusted by 40,000+ Drivers Nationwide
+        - heading "Auto Insurance That Actually Has Your Back." [level=1] [ref=e245]
+        - paragraph [ref=e246]: Compare top-rated carriers, unlock hidden discounts, and drive away with coverage that fits your life, not the other way around. Quotes in under 2 minutes.
+        - link "Get My Free Quote" [ref=e248] [cursor=pointer]:
+          - /url: /contact
+        - paragraph [ref=e251]: No spam. No obligation. Just real savings. 🔒 256-bit secure.
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - generic [ref=e254]: "0"
+            - generic [ref=e255]: M+
+            - generic [ref=e256]: Saved for drivers
+          - generic [ref=e257]:
+            - generic [ref=e258]: "0"
+            - generic [ref=e259]: /5
+            - generic [ref=e260]: Average rating
+          - generic [ref=e261]:
+            - generic [ref=e262]: "0"
+            - generic [ref=e263]: sec
+            - generic [ref=e264]: Avg. quote time
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: As featured / carriers we compare
+      - generic [ref=e46]:
+        - generic [ref=e47]: SafeGuard
+        - generic [ref=e48]: Liberty Trust
+        - generic [ref=e49]: Nationwide+
+        - generic [ref=e50]: Progress Auto
+        - generic [ref=e51]: AllState Direct
+        - generic [ref=e52]: Root Cover
+    - generic [ref=e54]:
+      - generic [ref=e265]:
+        - generic [ref=e266]: Coverage Built Around You
+        - heading "Whatever You Drive, We've Got a Plan For It" [level=2] [ref=e267]
+        - paragraph [ref=e268]: From your daily commuter to your weekend toy, find the exact level of protection your vehicle deserves.
+      - generic [ref=e59]:
+        - article [ref=e269]:
+          - img "Blue Audi sedan, everyday driver coverage" [ref=e271]
+          - generic [ref=e272]:
+            - heading "Everyday Drivers" [level=3] [ref=e273]
+            - paragraph [ref=e274]: Liability, collision & comprehensive coverage tailored for your daily commute, priced to protect your wallet too.
+            - link "See plans" [ref=e275] [cursor=pointer]:
+              - /url: /contact
+        - article [ref=e278]:
+          - img "White SUV, family coverage plan" [ref=e280]
+          - generic [ref=e281]:
+            - heading "SUVs & Family Vehicles" [level=3] [ref=e282]
+            - paragraph [ref=e283]: Bundle multi-driver and multi-car discounts with higher liability limits built for family road trips.
+            - link "See plans" [ref=e284] [cursor=pointer]:
+              - /url: /contact
+        - article [ref=e287]:
+          - img "Red sports car, performance vehicle coverage" [ref=e289]
+          - generic [ref=e290]:
+            - heading "Performance & Luxury" [level=3] [ref=e291]
+            - paragraph [ref=e292]: Agreed-value and gap coverage options that protect what your high-performance vehicle is really worth.
+            - link "See plans" [ref=e293] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e88]:
+      - generic [ref=e296]:
+        - generic [ref=e297]: Why Drivers Choose Us
+        - heading "Insurance Shopping, Without the Headache" [level=2] [ref=e298]
+      - generic [ref=e299]:
+        - img "Mechanic providing roadside tire assistance" [ref=e301]
+        - generic [ref=e302]:
+          - generic [ref=e303]: "01"
+          - heading "24/7 Roadside Assistance" [level=3] [ref=e304]
+          - paragraph [ref=e305]: Flat tire at midnight? Dead battery on the highway? One tap connects you to help, wherever you are, whenever you need it, included on every plan tier.
+          - list [ref=e306]:
+            - listitem [ref=e307]: Towing up to 15 miles
+            - listitem [ref=e308]: Lockout & fuel delivery
+            - listitem [ref=e309]: Average dispatch under 30 minutes
+      - generic [ref=e310]:
+        - img "Roadside claims support after a breakdown" [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e314]: "02"
+          - heading "Claims That Move at Your Speed" [level=3] [ref=e315]
+          - paragraph [ref=e316]: File a claim from your phone in minutes. Our claims specialists guide you start to finish, most straightforward claims are approved within 48 hours.
+          - list [ref=e317]:
+            - listitem [ref=e318]: Photo-based claim filing
+            - listitem [ref=e319]: Real human support, not just bots
+            - listitem [ref=e320]: Rental car reimbursement options
+      - generic [ref=e321]:
+        - img "Certified mechanic inspecting a vehicle engine" [ref=e323]
+        - generic [ref=e324]:
+          - generic [ref=e325]: "03"
+          - heading "A Network You Can Trust" [level=3] [ref=e326]
+          - paragraph [ref=e327]: Access thousands of vetted repair shops and certified mechanics nationwide, so your car is always in good hands after an accident.
+          - list [ref=e328]:
+            - listitem [ref=e329]: 10,000+ certified shops
+            - listitem [ref=e330]: Guaranteed repair quality
+            - listitem [ref=e331]: Direct billing, no upfront cash
+    - generic [ref=e126]:
+      - generic [ref=e332]:
+        - generic [ref=e333]: Simple by Design
+        - heading "Get Covered in 3 Easy Steps" [level=2] [ref=e334]
+      - generic [ref=e130]:
+        - generic [ref=e335]:
+          - generic [ref=e340]: Step 1
+          - heading "Tell Us About Your Car" [level=3] [ref=e341]
+          - paragraph [ref=e342]: Enter your ZIP and a few quick details. It takes less time than parking your car.
+        - generic [ref=e343]:
+          - generic [ref=e348]: Step 2
+          - heading "Compare Real Quotes" [level=3] [ref=e349]
+          - paragraph [ref=e350]: See side-by-side pricing from top carriers, matched to your driving profile, no guesswork.
+        - generic [ref=e351]:
+          - generic [ref=e355]: Step 3
+          - heading "Lock In Your Rate" [level=3] [ref=e356]
+          - paragraph [ref=e357]: Pick the plan that fits, sign digitally, and hit the road with confidence, same day coverage available.
+    - generic [ref=e154]:
+      - img "Red sports car driving on an open road" [ref=e156]
+      - generic [ref=e358]:
+        - heading "Drivers Save an Average of $537 a Year When They Switch" [level=2] [ref=e359]
+        - paragraph [ref=e360]: Stop overpaying for the same coverage. See your personalized quote in under a minute.
+        - link "Check My Rate Now" [ref=e361] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e163]:
+      - img "Classic blue sports car on an autumn road" [ref=e363]
+      - generic [ref=e364]:
+        - generic [ref=e365]: Peace of Mind, Included
+        - heading "Coverage That Lets You Enjoy the Drive" [level=2] [ref=e366]
+        - paragraph [ref=e367]: "We built Auto Benefit Center around one idea: insurance should feel like a safety net, not a subscription you dread renewing. Transparent pricing, plain-English policies, and a team that actually picks up the phone."
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - strong [ref=e370]: No hidden fees
+            - text: What you quote is what you pay
+          - generic [ref=e371]:
+            - strong [ref=e372]: Cancel anytime
+            - text: No long-term lock-in contracts
+          - generic [ref=e373]:
+            - strong [ref=e374]: Licensed nationwide
+            - text: Compliant in all 50 states
+          - generic [ref=e375]:
+            - strong [ref=e376]: A+ rated carriers
+            - text: Only vetted, trusted partners
+    - generic [ref=e180]:
+      - generic [ref=e377]:
+        - generic [ref=e378]: Questions? Answered.
+        - heading "Frequently Asked Questions" [level=2] [ref=e379]
+      - generic [ref=e184]:
+        - generic [ref=e380]:
+          - button "Will checking my rate affect my credit score?" [expanded] [active] [ref=e381] [cursor=pointer]
+          - paragraph [ref=e386]: No. Getting a quote through Auto Benefit Center uses a soft inquiry only, which never impacts your credit score.
+        - generic [ref=e387]:
+          - button "How fast can my coverage start?" [ref=e388] [cursor=pointer]
+          - paragraph [ref=e392]: Most drivers can activate same-day coverage right after choosing a plan. Your digital ID card is available instantly.
+        - generic [ref=e393]:
+          - button "Can I bundle more than one vehicle?" [ref=e394] [cursor=pointer]
+          - paragraph [ref=e398]: Yes, multi-car households typically see some of the largest discounts. Add every vehicle on your quote to see the savings.
+        - generic [ref=e399]:
+          - button "What if I have a less-than-perfect driving record?" [ref=e400] [cursor=pointer]
+          - paragraph [ref=e404]: We compare carriers who specialize in a range of driving histories, so you can still find competitive coverage.
+        - generic [ref=e405]:
+          - button "Is Auto Benefit Center an insurance carrier?" [ref=e406] [cursor=pointer]
+          - paragraph [ref=e410]:
+            - text: We're a licensed comparison and referral service that connects drivers with A-rated insurance carriers and partners, see our
+            - link "Terms & Conditions" [ref=e411] [cursor=pointer]:
+              - /url: /terms-and-conditions
+            - text: for full details.
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - img "Auto Benefit Center" [ref=e219]
+        - paragraph [ref=e220]: Smarter auto insurance shopping, built for real drivers. We compare top-rated carriers so you don't have to.
+      - generic [ref=e221]:
+        - heading "Company" [level=4] [ref=e222]
+        - link "Why Us" [ref=e223] [cursor=pointer]:
+          - /url: "#why-us"
+        - link "How It Works" [ref=e224] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "FAQ" [ref=e225] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=e226]:
+        - heading "Legal" [level=4] [ref=e227]
+        - link "Privacy Policy" [ref=e228] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Terms & Conditions" [ref=e229] [cursor=pointer]:
+          - /url: /terms-and-conditions
+      - generic [ref=e230]:
+        - heading "Get In Touch" [level=4] [ref=e231]
+        - link "+1 844-780-1683" [ref=e232] [cursor=pointer]:
+          - /url: tel:+18447801683
+        - link "support@autobenefitcenter.com" [ref=e233] [cursor=pointer]:
+          - /url: mailto:support@autobenefitcenter.com
+        - generic [ref=e234]: 1201 N Market St, Suite 111,Wilmington, DE 19801
+    - generic [ref=e235]:
+      - paragraph [ref=e236]: © 2026 Auto Benefit Center. All rights reserved.
+      - paragraph [ref=e237]: Auto Benefit Center is a marketing and comparison service, not an insurance carrier. Coverage is subject to underwriting approval by third-party partners.
+  - button "Back to top" [ref=e240] [cursor=pointer]
