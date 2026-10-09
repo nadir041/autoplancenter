@@ -9,7 +9,7 @@ export default function Footer({ isContactPage = false }) {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="/images/logo.png" alt="Auto Benefit Center" width="800" height="561" />
+          <img src="/images/logo.png" alt="Auto plan Center" width="800" height="561" />
           <p>
             Smarter auto insurance shopping, built for real drivers. We compare top-rated carriers so you don't have to.
           </p>
@@ -35,9 +35,9 @@ export default function Footer({ isContactPage = false }) {
         </div>
       </div>
       <div className="footer-bottom container">
-        <p>© <span id="year">{currentYear}</span> Auto Benefit Center. All rights reserved.</p>
+        <p>© <span id="year">{currentYear}</span> Auto Plan Center. All rights reserved.</p>
         <p className="disclaimer">
-          Auto Benefit Center is a marketing and comparison service, not an insurance carrier. Coverage is subject to underwriting approval by third-party partners.
+          Auto Plan Center is a marketing and comparison service, not an insurance carrier. Coverage is subject to underwriting approval by third-party partners.
         </p>
       </div>
     </footer>
