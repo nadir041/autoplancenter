@@ -231,7 +231,7 @@ export default function ContactForm() {
           onChange={handleChange}
         />
         <span>
-          I consent to be contacted by phone, text, or email by a licensed agent regarding auto insurance options, including by autodialer or prerecorded message. Consent is not required to obtain a quote. See our <Link to="/privacy-policy">Privacy Policy</Link> and <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>.
+          By checking this box, you represent that you are 18+ years of age and agree to the <Link to="/privacy-policy">Privacy Policy</Link> and <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>. By selecting the checkbox, you provide your express written consent for a licensed sales agent associated with primeinsurancehub.com and its marketing partners to contact you at the number you provided, even if it is listed on the National Do Not Call Registry. You agree to receive telephonic sales and marketing calls and text messages using an automated system for dialing or selecting telephone numbers, AI-generated voice calls, prerecorded messages, or emails regarding products or services of Auto Insurance. Calls and messages are for marketing purposes, and cellular charges may apply.
         </span>
       </label>
 
@@ -239,7 +239,7 @@ export default function ContactForm() {
         {submitting ? 'Submitting...' : 'Get My Free Quote'}
       </button>
 
-      <p
+      {/* <p
         className="form-disclaimer"
         style={{
           marginTop: '14px',
@@ -252,7 +252,7 @@ export default function ContactForm() {
         and its licensed agent and insurance partners to contact you as described above. AutoBenefitCenter
         is a private entity and is not affiliated with or endorsed by any government agency. Submitting
         this request is not a guarantee of coverage.
-      </p>
+      </p> */}
     </form>
   );
 }
