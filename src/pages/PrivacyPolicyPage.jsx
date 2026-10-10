@@ -18,133 +18,145 @@ export default function PrivacyPolicyPage() {
 
         <section className="legal-body">
           <div className="container">
-            <p className="legal-updated">Last Updated: July 9, 2026</p>
+            <p className="legal-updated">
+              Effective Date: October 10, 2026<br />
+              Last Updated: October 10, 2026
+            </p>
 
             <div className="legal-toc">
               <h4>On this page</h4>
               <ol>
-                <li><a href="#overview">Overview</a></li>
                 <li><a href="#info-we-collect">Information We Collect</a></li>
                 <li><a href="#how-we-use">How We Use Your Information</a></li>
-                <li><a href="#sharing">How We Share Information</a></li>
-                <li><a href="#cookies">Cookies &amp; Tracking Technologies</a></li>
-                <li><a href="#tcpa">Consent to Contact (TCPA)</a></li>
-                <li><a href="#choices">Your Choices &amp; Rights</a></li>
+                <li><a href="#sharing">How We Share Your Information</a></li>
                 <li><a href="#security">Data Security</a></li>
-                <li><a href="#retention">Data Retention</a></li>
+                <li><a href="#choices">Your Privacy Rights and Choices</a></li>
+                <li><a href="#cookies">Cookies and Tracking Technologies</a></li>
                 <li><a href="#children">Children's Privacy</a></li>
-                <li><a href="#state-rights">State Privacy Rights (CCPA/CPRA &amp; Others)</a></li>
-                <li><a href="#changes">Changes to This Policy</a></li>
+                <li><a href="#third-party">Third-Party Websites and Services</a></li>
+                <li><a href="#changes">Policy Updates</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
               </ol>
             </div>
 
-            <h2 id="overview">1. Overview</h2>
             <p>
-              Auto Benefit Center ("Auto Benefit Center," "we," "us," or "our") operates autoplancenter.com (the "Site") as a marketing and comparison platform that helps consumers explore and request auto insurance quotes from licensed third-party insurance carriers and agents ("Partners"). This Privacy Policy explains what information we collect when you visit or use the Site, how we use and share that information, and the choices available to you.
+              At AutoPlanCenter, your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit AutoPlanCenter.com, request an auto insurance quote, or use our website services. We are committed to handling personal information responsibly and complying with applicable privacy and data protection laws.
             </p>
             <p>
-              By using the Site, submitting a form, or requesting a quote, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the Site.
-            </p>
-
-            <h2 id="info-we-collect">2. Information We Collect</h2>
-            <h3>2.1 Information You Provide</h3>
-            <ul>
-              <li>Contact details such as name, phone number, email address, and mailing address</li>
-              <li>Vehicle and driving information such as ZIP code, vehicle make/model/year, driving history, and current coverage</li>
-              <li>Household details such as number of drivers or vehicles, relevant to accurate quote matching</li>
-              <li>Any additional information you choose to include when contacting us</li>
-            </ul>
-            <h3>2.2 Information Collected Automatically</h3>
-            <ul>
-              <li>IP address, browser type, device type, and operating system</li>
-              <li>Pages viewed, referring URLs, links clicked, and time spent on the Site</li>
-              <li>Approximate location derived from IP address or ZIP code entry</li>
-              <li>Information collected via cookies, pixels, and similar technologies (see Section 5)</li>
-            </ul>
-            <h3>2.3 Information From Other Sources</h3>
-            <p>
-              We may receive additional information about you from our advertising partners, data providers, or Partners in order to verify submissions, prevent fraud, and improve quote matching accuracy.
+              Please review this policy carefully to understand how your information is handled and what choices may be available to you.
             </p>
 
-            <h2 id="how-we-use">3. How We Use Your Information</h2>
+            <h2 id="info-we-collect">1. Information We Collect</h2>
+            <p>We may collect the following categories of information, depending on how you use our website and services:</p>
             <ul>
-              <li>To match you with relevant auto insurance quotes and Partners</li>
-              <li>To operate, maintain, and improve the Site and our services</li>
-              <li>To communicate with you about your request, including by phone, text, or email</li>
-              <li>To personalize content and measure the effectiveness of our marketing</li>
-              <li>To detect, investigate, and prevent fraudulent or unauthorized activity</li>
-              <li>To comply with applicable laws, regulations, and industry standards</li>
-            </ul>
-
-            <h2 id="sharing">4. How We Share Information</h2>
-            <p>
-              We are a marketing and lead-generation service, not an insurance carrier. To provide you with quotes, we share the information you submit with one or more licensed insurance carriers, agents, brokers, or marketing partners who may contact you directly regarding your request. We may also share information with:
-            </p>
-            <ul>
-              <li>Service providers who perform functions on our behalf (e.g., hosting, analytics, fraud prevention)</li>
-              <li>Advertising and analytics partners to measure and improve campaign performance</li>
-              <li>Professional advisors such as legal or compliance consultants</li>
-              <li>Government authorities or other parties when required by law, subpoena, or legal process</li>
-              <li>A successor entity in the event of a merger, acquisition, or sale of assets</li>
+              <li><strong>Personal Information:</strong> Name, phone number, email address, mailing address, ZIP code, date of birth, and other identifying details you voluntarily provide.</li>
+              <li><strong>Auto Insurance Information:</strong> Vehicle make, model, year, mileage, vehicle identification number (VIN), driving history, coverage preferences, and other information relevant to insurance quotes.</li>
+              <li><strong>Additional Information:</strong> Information about your insurance needs, current coverage, or other details you submit through our forms.</li>
+              <li><strong>Website Usage Data:</strong> IP address, browser type, device information, pages visited, referral sources, and browsing activity collected through cookies or similar technologies.</li>
             </ul>
             <p>
-              We do not sell your Social Security number, and we do not knowingly share sensitive personal information beyond what is necessary to provide quote-matching services.
+              We collect information that is reasonably necessary to respond to your requests, improve our website, and facilitate connections with insurance professionals or providers where applicable.
             </p>
 
-            <h2 id="cookies">5. Cookies &amp; Tracking Technologies</h2>
-            <p>
-              We use cookies, web beacons, and similar technologies to recognize your browser, remember preferences, understand Site usage, and support advertising. You can control cookies through your browser settings; disabling cookies may limit some Site functionality. We and our partners may also use these technologies to deliver interest-based advertising on other websites.
-            </p>
-
-            <h2 id="tcpa">6. Consent to Contact (TCPA)</h2>
-            <p>
-              By submitting your phone number through our forms, you expressly consent to receive calls and text messages — including calls made using automatic telephone dialing systems, artificial or prerecorded voice messages, and SMS — from Auto Benefit Center and/or our Partners at the number provided, even if that number is on a state or federal Do Not Call registry. Consent is not a condition of purchasing any product or service. Message and data rates may apply. You may revoke consent at any time by contacting us using the details in Section 13 or by following opt-out instructions provided in a message.
-            </p>
-
-            <h2 id="choices">7. Your Choices &amp; Rights</h2>
+            <h2 id="how-we-use">2. How We Use Your Information</h2>
+            <p>We may use the information we collect to:</p>
             <ul>
-              <li><strong>Opt-out of marketing:</strong> Follow unsubscribe instructions in emails or texts, or contact us directly.</li>
-              <li><strong>Access &amp; correction:</strong> You may request a copy of the personal information we hold about you or ask us to correct inaccuracies.</li>
-              <li><strong>Deletion:</strong> You may request that we delete personal information, subject to legal exceptions.</li>
-              <li><strong>Do Not Sell/Share:</strong> Residents of certain states may opt out of the "sale" or "sharing" of personal information for cross-context behavioral advertising.</li>
+              <li>Help you explore auto insurance coverage options and request quotes.</li>
+              <li>Connect you with insurance agents, agencies, carriers, or other relevant providers where applicable.</li>
+              <li>Respond to inquiries and provide customer support.</li>
+              <li>Communicate with you about your requests, insurance options, or related services.</li>
+              <li>Improve our website, services, functionality, and user experience.</li>
+              <li>Analyze website traffic, maintain security, and prevent fraud or misuse.</li>
+              <li>Comply with applicable legal, regulatory, and contractual obligations.</li>
             </ul>
             <p>
-              To exercise any of these rights, please reach out using the contact details in Section 13. We will respond within the timeframe required by applicable law.
+              Where required by law, we will obtain appropriate consent before using personal information for specific marketing or tracking purposes.
             </p>
 
-            <h2 id="security">8. Data Security</h2>
+            <h2 id="sharing">3. How We Share Your Information</h2>
+            <p>We may share your information with the following categories of recipients when appropriate for the purposes described in this policy:</p>
+            <ul>
+              <li><strong>Insurance Carriers and Providers:</strong> To help provide quotes, assess eligibility, or facilitate insurance-related services.</li>
+              <li><strong>Licensed Insurance Agents and Agencies:</strong> To respond to your inquiry and help you explore available coverage options.</li>
+              <li><strong>Third-Party Service Providers:</strong> Companies that provide website hosting, analytics, communications, security, and other operational services.</li>
+              <li><strong>Marketing Partners:</strong> Where permitted by law and supported by any required consent, we may share information with relevant partners to facilitate your insurance inquiry or related communications.</li>
+              <li><strong>Legal and Regulatory Authorities:</strong> When disclosure is required by law, legal process, or necessary to protect our rights and prevent fraud.</li>
+            </ul>
             <p>
-              We maintain administrative, technical, and physical safeguards designed to protect personal information from unauthorized access, disclosure, alteration, or destruction, including encryption in transit (TLS/SSL). No method of transmission or storage is 100% secure, and we cannot guarantee absolute security.
+              We do not sell personal information for money. Certain disclosures or data-sharing activities may be treated as a sale or sharing under specific state privacy laws. Where applicable, we will provide the required disclosures and opt-out mechanisms.
             </p>
 
-            <h2 id="retention">9. Data Retention</h2>
+            <h2 id="security">4. Data Security</h2>
             <p>
-              We retain personal information for as long as necessary to fulfill the purposes described in this Policy, comply with legal obligations, resolve disputes, and enforce our agreements, after which it is securely deleted or anonymized.
+              We use reasonable administrative, technical, and organizational safeguards intended to protect personal information from unauthorized access, loss, misuse, alteration, or disclosure.
+            </p>
+            <p>
+              These measures may include secure hosting, access controls, and encryption where appropriate. However, no electronic transmission or storage system can be guaranteed to be completely secure.
+            </p>
+            <p>
+              We encourage you to exercise caution when sharing personal information online. If you believe your information has been compromised in connection with our services, please contact us using the details provided below.
             </p>
 
-            <h2 id="children">10. Children's Privacy</h2>
+            <h2 id="choices">5. Your Privacy Rights and Choices</h2>
+            <p>Depending on your state of residence and applicable law, you may have the right to:</p>
+            <ul>
+              <li>Request access to personal information we hold about you.</li>
+              <li>Request correction of inaccurate personal information.</li>
+              <li>Request deletion of personal information, subject to applicable exceptions.</li>
+              <li>Opt out of certain targeted advertising, sale, or sharing of personal information where applicable.</li>
+              <li>Withdraw consent for certain processing activities where consent is the legal basis.</li>
+              <li>Opt out of marketing communications.</li>
+              <li>Request to be placed on our internal Do Not Call list for telemarketing calls.</li>
+            </ul>
             <p>
-              The Site is intended for individuals who are at least 18 years old. We do not knowingly collect personal information from children under 13. If we learn that we have inadvertently collected such information, we will delete it promptly.
+              To stop receiving promotional emails, follow the unsubscribe instructions provided in the message. For text messages, you may reply STOP where supported.
+            </p>
+            <p>
+              To submit a privacy request, contact us using the contact information listed below. We may need to verify your identity before processing certain requests.
             </p>
 
-            <h2 id="state-rights">11. State Privacy Rights (CCPA/CPRA &amp; Others)</h2>
+            <h2 id="cookies">6. Cookies and Tracking Technologies</h2>
             <p>
-              Depending on your state of residence (including California, Colorado, Connecticut, Virginia, and others with comprehensive privacy laws), you may have additional rights regarding your personal information, including the right to know, delete, correct, and opt out of certain processing. We do not discriminate against users who exercise their privacy rights. To make a request, contact us using the information in Section 13; we may need to verify your identity before processing your request.
+              AutoPlanCenter.com may use cookies, analytics tools, pixels, and similar technologies to support website functionality, understand visitor behavior, measure performance, and improve our services.
+            </p>
+            <p>
+              You can manage cookies through your browser settings. Disabling certain cookies may affect the functionality of some website features.
+            </p>
+            <p>
+              Where required by applicable law, we will provide appropriate notice and obtain consent for non-essential cookies or tracking technologies. You may also have the right to opt out of certain targeted advertising or data-sharing activities.
             </p>
 
-            <h2 id="changes">12. Changes to This Policy</h2>
+            <h2 id="children">7. Children's Privacy</h2>
             <p>
-              We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. The "Last Updated" date at the top of this page indicates when this Policy was last revised. Continued use of the Site after changes take effect constitutes acceptance of the revised Policy.
+              Our website and services are intended for adults seeking auto insurance information. We do not knowingly collect personal information from children under 13 without legally required authorization. If we learn that such information has been collected improperly, we will take reasonable steps to delete it as required by applicable law.
             </p>
 
-            <h2 id="contact-us">13. Contact Us</h2>
-            <p>If you have questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us:</p>
+            <h2 id="third-party">8. Third-Party Websites and Services</h2>
             <p>
-              <strong>Auto Benefit Center</strong><br />
-              Email: <span id="privacyEmail">support@autoplancenter.com</span><br />
-              Phone: <span id="privacyPhone">+1 844-780-1683</span><br />
-              Address: <span id="privacyAddress">1201 N Market St, Suite 111, Wilmington, DE 19801</span>
+              Our website may contain links to external websites, insurance providers, or other third-party services. These third parties maintain their own privacy policies and practices.
+            </p>
+            <p>
+              AutoPlanCenter does not control the privacy practices of websites that we do not operate. We encourage you to review their policies before providing personal information.
+            </p>
+
+            <h2 id="changes">9. Policy Updates</h2>
+            <p>
+              We may update this Privacy Policy periodically to reflect changes in our services, data-handling practices, or applicable laws.
+            </p>
+            <p>
+              Any updates will be posted on this page with a revised “Last Updated” date. Your continued use of the website after changes are posted will be subject to the updated policy to the extent permitted by applicable law.
+            </p>
+
+            <h2 id="contact-us">10. Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or wish to submit a privacy-related request, please contact us:</p>
+            <p>
+              <strong>Company:</strong> AutoPlanCenter<br />
+              <strong>Website:</strong> <a href="https://autoplancenter.com">https://autoplancenter.com</a><br />
+              <strong>Email:</strong> <a href="mailto:support@autoplancenter.com">support@autoplancenter.com</a><br />
+              <strong>Phone:</strong> <a href="tel:+18447801683">+1 844-780-1683</a>
+            </p>
+            <p>
+              We will review privacy inquiries and respond in accordance with applicable legal requirements.
             </p>
           </div>
         </section>
