@@ -26,7 +26,7 @@ export default function Header({ isContactPage = false }) {
     <header className={`site-header${scrolled ? ' scrolled' : ''}`} id="siteHeader">
       <div className="container header-inner">
         <Link to="/" className="logo">
-          <img src="/images/logo.png" alt="Auto Benefit Center" width="800" height="561" />
+          <img src="/images/headerlogo.png" alt="Auto Plan Center" width="2172" height="724" />
         </Link>
 
         <nav className={`main-nav${navOpen ? ' open' : ''}`} id="mainNav">
