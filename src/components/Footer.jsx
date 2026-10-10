@@ -9,7 +9,9 @@ export default function Footer({ isContactPage = false }) {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img src="/images/logo.png" alt="Auto plan Center" width="800" height="561" />
+          <Link to="/" className="footer-logo" onClick={() => window.scrollTo(0, 0)}>
+            <img src="/images/logo.png" alt="Auto plan Center" width="800" height="561" />
+          </Link>
           <p>
             Smarter auto insurance shopping, built for real drivers. We compare top-rated carriers so you don't have to.
           </p>

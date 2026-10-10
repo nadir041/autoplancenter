@@ -40,7 +40,8 @@ export default function Header({ isContactPage = false }) {
         <button
           className={`nav-toggle${navOpen ? ' active' : ''}`}
           id="navToggle"
-          aria-label="Toggle navigation"
+          aria-label={navOpen ? 'Close navigation' : 'Open navigation'}
+          aria-expanded={navOpen}
           onClick={() => setNavOpen(!navOpen)}
         >
           <span></span><span></span><span></span>
