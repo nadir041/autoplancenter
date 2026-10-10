@@ -146,7 +146,8 @@ export default function ContactForm() {
         />
       </div>
 
-      <input id="leadid_token" name="universal_leadid" type="hidden" value="" />
+      <input type="hidden" id="user_ip" name="user_ip" value="" />
+      <input type="hidden" id="leadid_token" name="leadid_token" value="" />
       <input type="hidden" name="xxTrustedFormCertUrl" value="" />
       <input type="hidden" name="xxTrustedFormPingUrl" value="" />
 

@@ -4,12 +4,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Auto Benefit Center | Smarter Auto Insurance Coverage</title>
+  <title>Auto Plan Center | Smarter Auto Insurance Coverage</title>
   <meta name="description"
     content="Compare top-rated auto insurance plans and find the coverage that fits your car and your budget. Fast quotes, real savings, 24/7 support." />
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favnew.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favnew.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+
+
+  <!-- Trustedform or IP script -->
+
+  <script type="text/javascript">
+    function myCallbackFunction(token) {
+      var field = document.querySelector("#leadid_token");
+      if (field) {
+        field.setAttribute('value', token);
+      }
+    }
+  </script>
+
+  <script id="LeadiDscript" type="text/javascript">
+    (function () {
+      var s = document.createElement('script');
+      s.id = 'LeadiDscript_campaign';
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//create.lidstatic.com/campaign/01ee7492-3876-b0aa-cb87-d45c20fccc49.js?snippet_version=2&f=reset&callback=myCallbackFunction';
+      var LeadiDscript = document.getElementById('LeadiDscript');
+      LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+    })();
+  </script>
+  <noscript><img
+      src='//create.leadid.com/noscript.gif?lac=675C7AD0-766C-086F-2192-FC4BF16CACF6&lck=01ee7492-3876-b0aa-cb87-d45c20fccc49&snippet_version=2' /></noscript>
+
+
+  <script>jQuery(document).ready(function ($) {
+      function getUserIP(callback) {
+        $.getJSON('https://api.ipify.org?format=json', function (data) {
+          var userIP = data.ip;
+          callback(userIP);
+        });
+      }
+
+      // Set the user's IP address as the value of the hidden input field
+      getUserIP(function (ip) {
+        $('#user_ip').val(ip);
+      });
+    });
+  </script>
+
+
+  <style>
+    .wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number {
+      border: 1px solid black;
+    }
+  </style>
+
+
+  <!-- TrustedForm -->
+  <script type="text/javascript">
+    (function () {
+      var tf = document.createElement('script');
+      tf.type = 'text/javascript';
+      tf.async = true;
+      tf.src = ("https:" == document.location.protocol ? 'https' : 'http') +
+        '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&l=' +
+        new Date().getTime() + Math.random();
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tf, s);
+    })();
+  </script>
+  <noscript>
+    <img src='https://api.trustedform.com/ns.gif' />
+  </noscript>
+  <!-- End TrustedForm -->
+
+  <!-- Jornaya script -->
+  <script id="LeadiDscript" type="text/javascript">
+    (function () {
+      var s = document.createElement('script');
+      s.id = 'LeadiDscript_campaign';
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//create.lidstatic.com/campaign/6acd85e5-16db-80e3-2085-738db7786001.js?snippet_version=2';
+      var LeadiDscript = document.getElementById('LeadiDscript');
+      LeadiDscript.parentNode.insertBefore(s, LeadiDscript);
+    })();
+  </script>
+  <noscript><img
+      src='//create.leadid.com/noscript.gif?lac=27A8DA97-868C-B796-63C7-A9D0E270FE46&lck=6acd85e5-16db-80e3-2085-738db7786001&snippet_version=2' /></noscript>
+
 </head>
 
 <body>
