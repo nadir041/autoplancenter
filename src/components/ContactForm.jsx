@@ -1,6 +1,7 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect  } from 'react';
 import { Link } from 'react-router-dom';
 import { useToast } from './Toast';
+// import React, { useState, useRef, useEffect } from 'react';
 
 const LEAD_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxkxfB4EKb1nAeEystZE0c8xxd48LzHcxiVJhCCPmGVRaaImtG6ikGS_2Q6VmRYGfgD1g/exec';
 
@@ -44,6 +45,27 @@ export default function ContactForm() {
       [name]: type === 'checkbox' ? checked : value,
     }));
   };
+
+  // chatgpt
+
+const [userIP, setUserIP] = useState('');
+
+useEffect(() => {
+  fetch('https://api.ipify.org?format=json')
+    .then((response) => {
+      if (!response.ok) throw new Error('IP request failed');
+      return response.json();
+    })
+    .then((data) => {
+      setUserIP(data.ip);
+      console.log('IP saved to React state:', data.ip);
+    })
+    .catch((error) => {
+      console.error('IP fetching error:', error);
+    });
+}, []);
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -145,11 +167,8 @@ export default function ContactForm() {
           onChange={handleChange}
         />
       </div>
-
-      <input type="hidden" id="user_ip" name="user_ip" value="" />
-      <input type="hidden" id="leadid_token" name="leadid_token" value="" />
-      <input type="hidden" name="xxTrustedFormCertUrl" value="" />
-      <input type="hidden" name="xxTrustedFormPingUrl" value="" />
+      
+      
 
       <div className="field-row">
         <div className="field">
@@ -235,25 +254,20 @@ export default function ContactForm() {
           By checking this box, you represent that you are 18+ years of age and agree to the <Link to="/privacy-policy">Privacy Policy</Link> and <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>. By selecting the checkbox, you provide your express written consent for a licensed sales agent associated with primeinsurancehub.com and its marketing partners to contact you at the number you provided, even if it is listed on the National Do Not Call Registry. You agree to receive telephonic sales and marketing calls and text messages using an automated system for dialing or selecting telephone numbers, AI-generated voice calls, prerecorded messages, or emails regarding products or services of Auto Insurance. Calls and messages are for marketing purposes, and cellular charges may apply.
         </span>
       </label>
+      <input
+  type="hidden"
+  id="user_ip"
+  name="user_ip"
+  value={userIP}
+  readOnly
+/>
+      <input type="hidden" id="leadid_token" name="leadid_token" />
+  
 
-      <button type="submit" className="btn btn-primary btn-lg btn-block" disabled={submitting}>
+      <button type="submit" id="submit-btn" className="btn btn-primary btn-lg btn-block" disabled={submitting}>
         {submitting ? 'Submitting...' : 'Get My Free Quote'}
       </button>
 
-      {/* <p
-        className="form-disclaimer"
-        style={{
-          marginTop: '14px',
-          fontSize: '11px',
-          lineHeight: '1.55',
-          color: '#6b7280',
-        }}
-      >
-        This is a solicitation for insurance. By submitting this form you authorize AutoBenefitCenter
-        and its licensed agent and insurance partners to contact you as described above. AutoBenefitCenter
-        is a private entity and is not affiliated with or endorsed by any government agency. Submitting
-        this request is not a guarantee of coverage.
-      </p> */}
     </form>
   );
 }
