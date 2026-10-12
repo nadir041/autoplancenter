@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useToast } from './Toast';
 // import React, { useState, useRef, useEffect } from 'react';
 
-const LEAD_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxkxfB4EKb1nAeEystZE0c8xxd48LzHcxiVJhCCPmGVRaaImtG6ikGS_2Q6VmRYGfgD1g/exec';
+const LEAD_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxoEbBiESK7KR-kDbq9mJ83fgXVURwT_scuzpcIxpEAoZQuocxPt8PFAKwfppGqYnnQ/exec';
 
 export default function ContactForm() {
   const showToast = useToast();
@@ -105,20 +105,41 @@ useEffect(() => {
 
     setSubmitting(true);
 
-    const payload = {
-      source: 'AutoBenefitCenter',
-      firstName: formData.firstName.trim(),
-      lastName: formData.lastName.trim(),
-      email: formData.email.trim(),
-      phone: formData.phone.trim(),
-      zip: zip,
-      consent: formData.consent ? 'Yes' : 'No',
-      trustedFormCert: '',
-      trustedFormToken: '',
-      trustedFormPingUrl: '',
-      leadiD: '',
-      userAgent: navigator.userAgent,
-    };
+    // const payload = {
+    //   source: 'AutoBenefitCenter',
+    //   firstName: formData.firstName.trim(),
+    //   lastName: formData.lastName.trim(),
+    //   email: formData.email.trim(),
+    //   phone: formData.phone.trim(),
+    //   zip: zip,
+    //   consent: formData.consent ? 'Yes' : 'No',
+    //   trustedFormCert: '',
+    //   trustedFormToken: '',
+    //   trustedFormPingUrl: '',
+    //   leadiD: '',
+    //   userAgent: navigator.userAgent,
+    // };
+
+
+
+    // chatgpt
+
+const payload = {
+  source: 'AutoPlanCenter',
+  firstName: formData.firstName.trim(),
+  lastName: formData.lastName.trim(),
+  email: formData.email.trim(),
+  phone: formData.phone.trim(),
+  zip: zip,
+  consent: formData.consent ? 'Yes' : 'No',
+  userIP: userIP,
+  trustedFormCert: '',
+  trustedFormToken: '',
+  trustedFormPingUrl: '',
+  leadiD: '',
+  userAgent: navigator.userAgent,
+};
+
 
     try {
       await fetch(LEAD_ENDPOINT, {
