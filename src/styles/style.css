@@ -420,3 +420,14 @@ body.contact-page .contact-section{ padding:120px 0 60px; min-height:calc(100vh 
 .legal-toc a{ color:var(--blue-2); font-size:14.5px; }
 .legal-updated{ font-size:13.5px; color:var(--ink-soft); background:rgba(11,78,162,.06); display:inline-block; padding:6px 16px; border-radius:999px; margin-bottom:24px; }
 
+/* ---------- Partners page ---------- */
+.partners-body .container{ max-width:1000px; }
+.legal-body .partners-list{
+  list-style:none; padding:0; margin:28px 0 0;
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:12px;
+}
+.legal-body .partners-list li{
+  margin:0; padding:14px 18px; background:var(--paper); border:1px solid var(--line);
+  border-radius:var(--radius-sm); color:var(--navy); font-size:15px; font-weight:600;
+}
+

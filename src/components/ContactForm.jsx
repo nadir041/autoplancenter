@@ -272,7 +272,7 @@ userAgent: navigator.userAgent,
           onChange={handleChange}
         />
         <span>
-          By checking this box, you represent that you are 18+ years of age and agree to the <Link to="/privacy-policy">Privacy Policy</Link> and <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>. By selecting the checkbox, you provide your express written consent for a licensed sales agent associated with primeinsurancehub.com and its marketing partners to contact you at the number you provided, even if it is listed on the National Do Not Call Registry. You agree to receive telephonic sales and marketing calls and text messages using an automated system for dialing or selecting telephone numbers, AI-generated voice calls, prerecorded messages, or emails regarding products or services of Auto Insurance. Calls and messages are for marketing purposes, and cellular charges may apply.
+          By checking this box, you represent that you are 18+ years of age and agree to the <Link to="/privacy-policy">Privacy Policy</Link> and <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>. By selecting the checkbox, you provide your express written consent for a licensed sales agent associated with autoplancenter.com and its <Link to="/partners">Marketing Partners</Link> to contact you at the number you provided, even if it is listed on the National Do Not Call Registry. You agree to receive telephonic sales and marketing calls and text messages using an automated system for dialing or selecting telephone numbers, AI-generated voice calls, prerecorded messages, or emails regarding products or services of Auto Insurance. Calls and messages are for marketing purposes, and cellular charges may apply.
         </span>
       </label>
 

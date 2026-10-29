@@ -26,6 +26,7 @@ export default function Footer({ isContactPage = false }) {
           <h4>Legal</h4>
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
+          <Link to="/partners">Partners</Link>
         </div>
         <div className="footer-col">
           <h4>Get In Touch</h4>
